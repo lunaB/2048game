@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0 auto;
+	padding:0;	
+}
+
+body {
+	height:100%;
+	background: rgb(242,246,248); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 );
+}
+
+h1 {
+	font-size:100px;
+	color:#555;
+	height:130px;
+	width:600px;	
+	text-align:center;
+}
+
+h2 {
+	font-size:40px;
+	color:#555;
+	height:60px;
+	width:80%;	
+	text-align:left;
+}
+
+#undo {
+	font-size:35px;
+	font-weight:bold;
+	text-align:right;	
+	color:rgba(214,126,39,1.00);
+	cursor:pointer;
+	padding-right:5px;
+}
+
+#out{
+	width:400px;
+	height:400px;
+	background-color:#555;
+	border:8px solid #009BC4;	
+	border-radius:16px;
+	padding:3px;
+}
+
+.block {
+	width:94px;
+	height:94px;
+	margin:3px 3px;
+	border-radius:6px;
+	float:left;
+	font-size:50px;
+	text-align:center;
+	line-height:94px;
+	color:#555;
+	font-weight:bold;
+}
+
+#score {
+	width:386px;
+	height:100px;
+	background-color:#FFF;
+	border:8px solid #555;
+	border-radius:16px;	
+	line-height:100px;
+	text-align:right;
+	padding-right:20px;
+	font-weight:bold;
+	font-size:60px;	
+	color:#555;
+}
+
+#gameOver {
+	width:600px;
+	height:300px;
+    padding:0 10px;
+	position:absolute;
+	top:20%;
+	left:50%;
+	margin-left:-300px;
+	background-color:rgba(100,100,100,0.85);
+	display:none;
+}
+
+#rePlay {
+	width:200px;
+	height:80px;
+	background-color:#fff;
+	cursor:pointer;	
+}
+
+#container {
+	width:416px;
+	height:700px;
+}
+
+
+footer {
+	width:100%;
+	height:200px;
+	background-color:#555;
+}
+#log {
+	width:400px;
+    height:180px;
+    overflow:inherit;
+}
+#data{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+#submitButton {
+    margin-top: 40px;
+    cursor: pointer;
+	width:70px;
+	height:30px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22;
+    border-radius: 50px;
+	padding:0;
+}
